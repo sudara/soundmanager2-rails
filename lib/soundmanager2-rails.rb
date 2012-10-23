@@ -9,5 +9,6 @@ module Soundmanager2
     # Fake the engine, also somewhat ghetto, but hey.
     class Engine < ::Rails::Engine
     end
+  
   end
 end
