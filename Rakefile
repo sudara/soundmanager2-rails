@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "soundmanager2-rails"
   gem.homepage = "http://github.com/sudara/soundmanager2-rails"
   gem.license = "MIT"
-  gem.summary = %Q{Simply exposes soundmanager2 as a vendored js lib in rails 3}
-  gem.description = %Q{Note: Does not initalize or add code to your app. }
+  gem.summary = %Q{Exposes soundmanager2 as a vendored js lib in rails 3}
+  gem.description = %Q{Exposes soundmanager2 as a vendored js lib in rails 3 }
   gem.email = "sudara@alonetone.com"
   gem.authors = ["Sudara"]
   # dependencies defined in Gemfile

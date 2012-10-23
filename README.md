@@ -2,7 +2,7 @@
 
 Easy and non-obtrusive way to get [SoundManager2](http://www.schillmania.com/projects/soundmanager2/) as a dep for your rails3 project.
 
-Note: This method differs from ["soundmanager-rails"](https://github.com/glaszig/soundmanager-rails) in that all it does is expose the js and swf files for usage in the asset pipeline. It does not auto-intiialize soundmanager when you require it, nor change what is required based upon your env. It *only* exposes the assets for manual use.  
+Note: This gem differs from glaszig's ["soundmanager-rails"](https://github.com/glaszig/soundmanager-rails) in that all it only exposes the js and swf files for usage in the asset pipeline. It does not auto-intialize soundmanager when required, nor change what is required based upon your env. It *only* exposes the assets for manual use and uses versioning that follows soundmanager2's development.  
 
 ## Installation
 
@@ -23,13 +23,13 @@ Add to application.js manifest:
 
 Or one of the other js files soundmanager2 provides:
 
-    vendor/assets/javascripts/soundmanager2-jsmin.js
-    vendor/assets/javascripts/soundmanager2-nodebug-jsmin.js
-    vendor/assets/javascripts/soundmanager2-nodebug.js
+    //= require soundmanager2-jsmin
+    //= require soundmanager2-nodebug-jsmin
+    //= require soundmanager2-nodebug
 
 ## Important
 
-This gem only includes the cross-domain flash files because that's what I use.
+This gem only includes the cross-domain flash files (because that's what I use.)
 
 ## Versions
 
