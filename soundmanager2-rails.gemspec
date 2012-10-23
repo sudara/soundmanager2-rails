@@ -5,12 +5,12 @@
 
 Gem::Specification.new do |s|
   s.name = "soundmanager2-rails"
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Sudara"]
   s.date = "2012-10-23"
-  s.description = "Note: Does not initalize or add code to your app. "
+  s.description = "Exposes soundmanager2 as a vendored js lib in rails 3 "
   s.email = "sudara@alonetone.com"
   s.extra_rdoc_files = [
     "README.md"
@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "lib/soundmanager2-rails.rb",
+    "soundmanager2-rails.gemspec",
     "vendor/assets/javascripts/soundmanager2-jsmin.js",
     "vendor/assets/javascripts/soundmanager2-nodebug-jsmin.js",
     "vendor/assets/javascripts/soundmanager2-nodebug.js",
@@ -36,7 +37,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.24"
-  s.summary = "Simply exposes soundmanager2 as a vendored js lib in rails 3"
+  s.summary = "Exposes soundmanager2 as a vendored js lib in rails 3"
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
