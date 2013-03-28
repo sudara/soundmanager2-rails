@@ -16,3 +16,4 @@ rerun.txt
 pickle-email-*.html
 .bundle
 pkg
+.DS_Store

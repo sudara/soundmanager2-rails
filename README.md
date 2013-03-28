@@ -40,7 +40,6 @@ You probably want to include some config. I normally have a "settings.html.erb" 
     soundManager.multiShot = false
     soundManager.url = "<%= asset_path('soundmanager2.swf') %>"
     soundManager.useHTML5Audio = true
-    soundManager.preferFlash = true // still prefer flash even though HTML5 support might be there (because it's skeeeetchhhhyyy)
     soundManager.consoleOnly = true
 
 
