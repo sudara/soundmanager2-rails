@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "soundmanager2-rails"
-  s.version = "2.97.20130324"
+  s.version = "2.97.20130512"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Sudara"]
-  s.date = "2013-03-28"
+  s.date = "2013-11-03"
   s.description = "Exposes soundmanager2 as a vendored js lib in rails 3 "
   s.email = "sudara@alonetone.com"
   s.extra_rdoc_files = [
@@ -36,7 +36,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/sudara/soundmanager2-rails"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
-  s.rubygems_version = "2.0.2"
+  s.rubygems_version = "2.0.3"
   s.summary = "Exposes soundmanager2 as a vendored js lib in rails 3"
 
   if s.respond_to? :specification_version then
