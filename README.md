@@ -76,4 +76,14 @@ Made for [alonetone](http://github.com/sudara/alonetone) and [Ramen Music](http:
 Apologies to glaszig for "doing the same thing." (I wanted to try my hand at an assets gem, and specifically wanted to match soundmanager2 versions so my apps can share deps clearly and cleanly!)
 
 
-  
+## Updating this gem
+
+Reminding myself for 6 months down the line :) 
+
+* Update the swf and js files with the **cross-domain** versions 
+* Update VERSION
+
+```
+bundle && bundle exec rake gemspec 
+bundle exec rake release
+```  
