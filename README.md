@@ -1,6 +1,6 @@
-# SoundManager 2 for Rails 3
+# SoundManager 2 for Rails 3/4
 
-Easy and non-obtrusive way to get [SoundManager 2](http://www.schillmania.com/projects/soundmanager2/) as a dep for your rails3 project.
+Easy and non-obtrusive way to get [SoundManager 2](http://www.schillmania.com/projects/soundmanager2/) as a dep for rails3/rails4.
 
 Note: This gem differs from glaszig's ["soundmanager-rails"](https://github.com/glaszig/soundmanager-rails) in that all it only exposes the js and swf files for usage in the asset pipeline. It does not auto-intialize soundmanager when required, nor change what is required based upon your env. It *only* exposes the assets for manual use and uses versioning that follows soundmanager2's development.  
 
@@ -43,7 +43,7 @@ You probably want to include some config. I normally have a "settings.html.erb" 
     soundManager.consoleOnly = true
 
 
-See the (SoundManager2 docs)[http://www.schillmania.com/projects/soundmanager2/doc/getstarted/#basic-inclusion] for info about how to initialize and use.
+See the (SoundManager2 docs)[http://www.schillmania.com/projects/soundmanager2/doc/getstarted/] for info about how to initialize and use.
 
 ## Important
 
@@ -62,7 +62,7 @@ The current soundmanager2 version at time of this readme is 2.97a.20120916
 In gemfile, you can specify:
 
     # Note: we can't include an "a" in the Minor version, since afaik gems don't support it
-    gem "soundmanager2-rails", "2.97.20120916"
+    gem "soundmanager2-rails", "2.97a.20140901"
     
 ### Not up to date?
 
