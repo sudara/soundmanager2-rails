@@ -43,7 +43,7 @@ You probably want to include some config. I normally have a "settings.html.erb" 
     soundManager.consoleOnly = true
 
 
-See the (SoundManager2 docs)[http://www.schillmania.com/projects/soundmanager2/doc/getstarted/] for info about how to initialize and use.
+See the [SoundManager2 docs](http://www.schillmania.com/projects/soundmanager2/doc/getstarted/) for info about how to initialize and use.
 
 ## Important
 
@@ -62,12 +62,8 @@ The current soundmanager2 version at time of this readme is 2.97a.20140901
 In gemfile, you can specify:
 
     # Note: we can't include an "a" in the Minor version, since afaik gems don't support it
-<<<<<<< HEAD
-    gem "soundmanager2-rails", "2.97a.20140901"
-=======
     gem "soundmanager2-rails", "2.97.20140901"
->>>>>>> 3c73f9e6f78fc0daedb64528684f9a154e81fd0e
-    
+
 ### Not up to date?
 
 Send a pull request or bug me on github.
