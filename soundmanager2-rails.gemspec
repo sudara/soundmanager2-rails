@@ -6,12 +6,12 @@
 
 Gem::Specification.new do |s|
   s.name = "soundmanager2-rails"
-  s.version = "2.97.20131201"
+  s.version = "2.97.20140901"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["Sudara"]
-  s.date = "2014-02-19"
+  s.date = "2014-09-13"
   s.description = "Exposes soundmanager2 as a vendored js lib in rails 3 "
   s.email = "sudara@alonetone.com"
   s.extra_rdoc_files = [
@@ -41,7 +41,7 @@ Gem::Specification.new do |s|
   s.summary = "Exposes soundmanager2 as a vendored js lib in rails 3"
 
   if s.respond_to? :specification_version then
-    s.specification_version = 4
+    s.specification_version = 5
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_development_dependency(%q<bundler>, [">= 0"])

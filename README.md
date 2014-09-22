@@ -57,12 +57,16 @@ Versions of soundmanager2-rails follow soundmanager2 versioning to make life mor
 
 Example:
 
-The current soundmanager2 version at time of this readme is 2.97a.20120916
+The current soundmanager2 version at time of this readme is 2.97a.20140901
 
 In gemfile, you can specify:
 
     # Note: we can't include an "a" in the Minor version, since afaik gems don't support it
+<<<<<<< HEAD
     gem "soundmanager2-rails", "2.97a.20140901"
+=======
+    gem "soundmanager2-rails", "2.97.20140901"
+>>>>>>> 3c73f9e6f78fc0daedb64528684f9a154e81fd0e
     
 ### Not up to date?
 
