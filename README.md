@@ -2,7 +2,7 @@
 
 Easy and non-obtrusive way to get [SoundManager 2](http://www.schillmania.com/projects/soundmanager2/) as a dep for rails3/rails4.
 
-Note: This gem differs from glaszig's ["soundmanager-rails"](https://github.com/glaszig/soundmanager-rails) in that all it only exposes the js and swf files for usage in the asset pipeline. It does not auto-intialize soundmanager when required, nor change what is required based upon your env. It *only* exposes the assets for manual use and uses versioning that follows soundmanager2's development.  
+Note: This gem differs from glaszig's ["soundmanager-rails"](https://github.com/glaszig/soundmanager-rails) in that all it only exposes the js and swf files for usage in the asset pipeline. It does not auto-intialize soundmanager when required, nor change what is required based upon your env. It *only* exposes the assets for manual use and uses versioning that follows soundmanager2's development.
 
 ## Installation
 
@@ -29,10 +29,10 @@ Or one of the other js files soundmanager2 provides:
 
 
 Assuming you are using the asset pipeline, you will need to at least tell rails to "precompile" the swf (same with the js too if you are using it as a standalone javascript anywhere)
- 
+
     # config/application.rb
     config.assets.precompile += %w(soundmanager2.swf soundmanager2_flash9.swf)
-    
+
 You probably want to include some config. I normally have a "settings.html.erb" which allows me to use the asset_path helper to deliver the correct swf. It also lets me easily toggle debug mode, etc.
 
     soundManager.debugMode = false
@@ -57,12 +57,12 @@ Versions of soundmanager2-rails follow soundmanager2 versioning to make life mor
 
 Example:
 
-The current soundmanager2 version at time of this readme is 2.97a.20140901
+The current soundmanager2 version at time of this readme is 2.97a-20170601
 
 In gemfile, you can specify:
 
-    # Note: we can't include an "a" in the Minor version, since afaik gems don't support it
-    gem "soundmanager2-rails", "2.97.20140901"
+    # Note: we can't include an "a" in the Minor version, since gems don't support it
+    gem "soundmanager2-rails", "2.97.20170601"
 
 ### Not up to date?
 
@@ -71,19 +71,17 @@ Send a pull request or bug me on github.
 
 ## Misc
 
-Made for [alonetone](http://github.com/sudara/alonetone) and [Ramen Music](http://ramenmusic.com). 
-
-Apologies to glaszig for "doing the same thing." (I wanted to try my hand at an assets gem, and specifically wanted to match soundmanager2 versions so my apps can share deps clearly and cleanly!)
+Made for [alonetone](http://github.com/sudara/alonetone) and [Ramen Music](http://ramenmusic.com).
 
 
 ## Updating this gem
 
-Reminding myself for 6 months down the line :) 
+Reminding myself for 6 months down the line :)
 
-* Update the swf and js files with the **cross-domain** versions 
+* Update the swf and js files with the **cross-domain** versions
 * Update VERSION
 
 ```
-bundle && bundle exec rake gemspec 
+bundle && bundle exec rake gemspec
 bundle exec rake release
-```  
+```
